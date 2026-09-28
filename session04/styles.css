@@ -1,0 +1,49 @@
+body {
+    background-color: #F9EDEF;
+    color: #6B2637;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6B2637;
+    font-size: 36px;
+}
+
+/* descendant selectors */
+
+/* links in navbar */
+nav a {
+    color: #8F4A5B;
+}
+
+/* links in main section */
+main a {
+    color: #66734A;
+}
+
+/* rules for artist name, site name, year */
+
+h2 {
+    color: #8F4A5B;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    color: #8A6A3D;
+    font-size: 10px;
+}
+
+h3 a {
+    color: #66734A;
+}
