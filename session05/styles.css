@@ -1,0 +1,80 @@
+body {
+    background-color: #F9EDEF;
+    color: #6B2637;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6B2637;
+    font-size: 36px;
+}
+
+/* descendant selectors */
+
+/* navbar */
+
+nav {
+    background-color: #6B2637;
+    padding: 15px;
+    border: 2px solid #8F4A5B;
+}
+
+/* links in navbar */
+
+nav a {
+    color: #F9EDEF;
+    margin: 0px 10px 0px 0px;
+}
+
+/* links in main section */
+
+main a {
+    color: #66734A;
+}
+
+/* rules for artist name, site name, year */
+
+h2 {
+    color: #8F4A5B;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    color: #8A6A3D;
+    font-size: 10px;
+}
+
+h3 a {
+    color: #66734A;
+}
+
+/* style images */
+
+.artistEntry img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    border: 2px solid #8F4A5B;
+    margin: 10px 0px 20px 0px;
+}
+
+/* style artist entries */
+
+.artistEntry {
+    background-color: #F4D8DC;
+    padding: 20px;
+    border: 2px solid #8F4A5B;
+    margin: 20px 0px 20px 0px;
+}
