@@ -1,0 +1,139 @@
+
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+    background-color: #E4C9BF;
+    color: #332D2B;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.container {
+    width: 90%;
+    margin: 0px auto;
+    background-color: #F5EFE7;
+}
+
+header, nav, main, aside, footer {
+    padding: 15px;
+}
+
+header {
+    background-color: #F5EFE7;
+    color: #332D2B;
+    padding: 25px 15px;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+/* START NAV STYLES */
+nav {
+    background-color: #A85D50;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #F5EFE7;
+    width: 145px;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0px 10px 0px 0px;
+    border: solid 1px #8C655C;
+    font-size: 13px;
+}
+/* END NAV STYLES */
+
+main {
+    background-color: #F5EFE7;
+    float: left;
+    width: 70%;
+}
+
+main div.description img.thumbnail {
+    width: 150px;
+    border: solid 5px #E4C9BF;
+    float: left;
+    margin: 0px 15px 5px 0px;
+}
+
+main div.description {
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+div.buttonAbsolute {
+    background-color: #E4C9BF;
+    position: absolute;
+    top: 45px;
+    right: 100px;
+    padding: 20px;
+    border-radius: 125px;
+    z-index: 4;
+    opacity: 0.8;
+    width: 130px;
+    text-align: center;
+}
+
+div.buttonAbsolute2 {
+    background-color: #A85D50;
+    position: absolute;
+    top: 35px;
+    right: 220px;
+    border-radius: 200px;
+    padding: 20px;
+    z-index: 3;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+}
+
+div.buttonRelative {
+    background-color: #6E765C;
+    color: #FFFFFF;
+    position: relative;
+    left: 15px;
+    width: 170px;
+    padding: 15px;
+    z-index: 5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #E4C9BF;
+    float: left;
+    width: 30%;
+    padding-bottom: 35px;
+}
+
+aside p {
+    border-bottom: solid 1px #A85D50;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #332D2B;
+    color: #F5EFE7;
+    float: none;
+    clear: both;
+}
